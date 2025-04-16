@@ -1,0 +1,6 @@
+[
+    { "ano": 2020, "regiao": "Amazônia", "areaDesmatada": 10000 },
+    { "ano": 2021, "regiao": "Amazônia", "areaDesmatada": 12000 },
+    { "ano": 2020, "regiao": "Cerrado", "areaDesmatada": 8000 },
+    { "ano": 2021, "regiao": "Cerrado", "areaDesmatada": 9000 }
+]
