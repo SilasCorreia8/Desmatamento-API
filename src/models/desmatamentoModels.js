@@ -21,7 +21,7 @@ function obterDadosPorAno(ano) {
     return dadosDesmatamento.filter((dado) => dado.ano === parseInt(ano));
 }
 
-// Exporta as funções para que possam ser utilizadas por outros módulos
+//Exporta as funções para que possam ser utilizadas por outros módulos
 module.exports = {
     obterDados,
     obterDadosPorRegiao,
