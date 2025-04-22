@@ -1,5 +1,5 @@
-//Importar o conteúdo do darquivo JSON
-const dadosDesmatamento = require("../../dadosDesmatamento.json");
+//Importar o conteúdo do arquivo JSON
+const dadosDesmatamento = require('../../dadosDesmatamento.json');
 
 //Função para obter os dados
 function obterDados() {
@@ -25,5 +25,6 @@ function obterDadosPorAno(ano) {
 module.exports = {
     obterDados,
     obterDadosPorRegiao,
-    obterDadosPorAno
-};
+    obterDadosPorAno,
+  };
+  

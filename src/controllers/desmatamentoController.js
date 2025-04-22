@@ -1,5 +1,5 @@
 //Importar o módulo do model para acessar as funções dos dadsos
-const desmatamentoModel = require("../models/desmatamentoModels");
+const desmatamentoModel = require('../models/desmatamentoModel.js');
 
 //Função para a requisição GET na rota '/desmatamento'
 function listarDados(requisicao, resposta) {
@@ -23,7 +23,7 @@ function listarDadosPorAno(requisicao, resposta) {
 
 //Exporta as funções para que possam ser utilizadas por outros móludos
 module.exports = {
-    listarDadosGerais,
+    listarDados,
     listarDadosPorRegiao,
     listarDadosPorAno,
   };
