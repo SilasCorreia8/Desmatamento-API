@@ -26,19 +26,3 @@ Esta API fornece dados sobre desmatamento de florestas e ambientes verdes. Os da
     * Para obter todos os dados: `http://localhost:3000/desmatamento`
     * Para obter dados por região (ex: Amazônia): `http://localhost:3000/desmatamento/regiao/Amazônia`
     * Para obter dados por ano (ex: 2020): `http://localhost:3000/desmatamento/ano/2020`
-
-## Estrutura do Código
-
-desmatamento-api-miniprojeto/
-├── src/
-│   ├── controllers/
-│   │   └── desmatamentoController.js   # Lógica para lidar com as requisições e respostas
-│   ├── models/
-│   │   └── desmatamentoModel.js        # Lógica para acessar e manipular os dados
-│   ├── routes/
-│   │   └── desmatamentoRoutes.js       # Definição das rotas da API
-│   └── app.js                          # Arquivo principal para iniciar o servidor Express
-├── .gitignore                          # Arquivo para especificar arquivos ignorados pelo Git
-├── dadosDesmatamento.json          # Arquivo contendo os dados de desmatamento em JSON
-├── package.json                    # Arquivo de configuração do projeto Node.js
-├── README.md                       # Documentação da API (este arquivo)
