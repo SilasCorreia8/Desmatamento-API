@@ -1,6 +1,22 @@
 [
-    { "ano": 2020, "regiao": "Amazônia", "areaDesmatada": 10000 },
-    { "ano": 2021, "regiao": "Amazônia", "areaDesmatada": 12000 },
-    { "ano": 2020, "regiao": "Cerrado", "areaDesmatada": 8000 },
-    { "ano": 2021, "regiao": "Cerrado", "areaDesmatada": 9000 }
+    { "ano": 2020, "regiao": "Amazônia", "areaDesmatada": 872247 },
+    { "ano": 2020, "regiao": "Cerrado", "areaDesmatada": 588758 },
+    { "ano": 2020, "regiao": "Caatinga", "areaDesmatada": 49767 },
+    { "ano": 2020, "regiao": "Mata Atlântica", "areaDesmatada": 13965 },
+    { "ano": 2020, "regiao": "Pantanal", "areaDesmatada": 13598 },
+    { "ano": 2020, "regiao": "Pampa", "areaDesmatada": 3287 },
+    
+    { "ano": 2020, "regiao": "Amazônia", "areaDesmatada": 1040287 },
+    { "ano": 2020, "regiao": "Cerrado", "areaDesmatada": 663331 },
+    { "ano": 2020, "regiao": "Caatinga", "areaDesmatada": 48271 },
+    { "ano": 2020, "regiao": "Mata Atlântica", "areaDesmatada": 21642 },
+    { "ano": 2020, "regiao": "Pantanal", "areaDesmatada": 16597 },
+    { "ano": 2020, "regiao": "Pampa", "areaDesmatada": 10103 },
+
+    { "ano": 2022, "regiao": "Amazônia", "areaDesmatada": 1192635 },
+    { "ano": 2022, "regiao": "Cerrado", "areaDesmatada":  659670 },
+    { "ano": 2022, "regiao": "Caatinga", "areaDesmatada": 140637 },
+
+    { "ano": 2023, "regiao": "Cerrado", "areaDesmatada": 1110326 },
+    { "ano": 2023, "regiao": "Amazônia", "areaDesmatada": 454300 }
 ]
