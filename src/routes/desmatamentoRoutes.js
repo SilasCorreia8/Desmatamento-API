@@ -10,11 +10,14 @@ const desmatamentoController = require('../controllers/desmatamentoController.js
 router.get("/", desmatamentoController.listarDados);
 
 //Define uma rota GET para '/regiao/:regiao'. O valor desse parâmetro será acessível em 'req.params.regiao' no controller.
-//Quando um cliente faz uma requisição GET para '/desmatamento/regiao/NOMEDAREGIAO', a função 'listarDadosPorRegiao' do 'desmatamentoController' será executada.
+//Quando um cliente faz uma requisição GET para '/desmatamento/regiao/NOMEDAREGIAO',
+//a função 'listarDadosPorRegiao' do 'desmatamentoController' será executada.
 router.get("/regiao/:regiao", desmatamentoController.listarDadosPorRegiao);
 
-//Define uma rota GET para '/ano/:ano'. ':ano' é outro parâmetro dinâmico na URL. O valor desse parâmetro será acessível em 'req.params.ano' no controller.
-//Quando um cliente faz uma requisição GET para '/desmatamento/ano/2023', a função 'listarDadosPorAno' do 'desmatamentoController' será executada.
+//Define uma rota GET para '/ano/:ano'.
+//':ano' é outro parâmetro dinâmico na URL. O valor desse parâmetro será acessível em 'req.params.ano' no controller.
+//Quando um cliente faz uma requisição GET para '/desmatamento/ano/2023',
+// a função 'listarDadosPorAno' do 'desmatamentoController' será executada.
 router.get("/ano/:ano", desmatamentoController.listarDadosPorAno);
 
 //Exporta o router para que ele possa ser montado no aplicativo principal (app.js).
