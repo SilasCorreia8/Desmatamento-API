@@ -10,7 +10,8 @@ function obterDados() {
 function obterDadosPorRegiao(regiao) {
     //Utiliza o método 'filter' do array para criar um novo array contendo
     //apenas os elementos onde a propriedade 'regiao' é igual ao valor passado
-    return dadosDesmatamento.filter((dado) => dado.regiao === regiao);
+    const regiaoLowerCase = regiao.toLowerCase();
+    return dadosDesmatamento.filter((dado) => dado.regiao.toLowerCase() === regiaoLowerCase);
 }
 
 //Função para obter dados por ano

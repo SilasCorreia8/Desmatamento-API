@@ -18,7 +18,7 @@ function listarDadosPorRegiao(requisicao, resposta) {
 function listarDadosPorAno(requisicao, resposta) {
     const ano = requisicao.params.ano; //Estrai o valor do parâmetro 'ano' da URL da requisição
     const dados = desmatamentoModel.obterDadosPorAno(ano); //Chama a função do model para obter os dados por ano
-    res.json(dados); //Envia os dados filtrados por ano como uma resposta JSON.
+    resposta.json(dados); //Envia os dados filtrados por ano como uma resposta JSON.
 }
 
 //Exporta as funções para que possam ser utilizadas por outros móludos
