@@ -20,3 +20,5 @@ app.listen(PORT, () => {
     // Exibe uma mensagem no console indicando que o servidor está rodando e em qual porta.
     console.log(`Servidor rodando na porta ${PORT}`);
 });
+
+module.exports = app;
